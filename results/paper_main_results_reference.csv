@@ -1,0 +1,13 @@
+dataset,method,mse,mae,final_mse_32,energy_mse,failure_rate,hilnn_tag,notes
+pendulum,LNN,0.279,0.116,0.483,4.222,0,,paper Table 1
+pendulum,LNN-multistep,0.415,0.238,0.857,5.906,0,,paper Table 1
+pendulum,HNN,1.646,0.826,2.740,17.512,0,,paper Table 1
+pendulum,Neural ODE,0.580,0.458,1.355,9.603,0,,paper Table 1
+pendulum,MLP-one-step,0.261,0.156,0.564,3.695,0,,paper Table 1
+pendulum,HiLNN,0.103,0.109,0.271,1.705,0,energy001,paper Table 1 (energy_weight=0.01)
+damped_pendulum,LNN,0.0371,0.104,0.149,0.987,0,,paper Table 1
+damped_pendulum,LNN-multistep,0.0419,0.124,0.0891,1.338,0,,paper Table 1
+damped_pendulum,HiLNN,0.00428,0.0362,0.0180,0.107,0,damped_energy001,paper Table 1
+variable_pendulum,LNN,0.960,0.536,2.483,19.516,0,,paper Table 1
+variable_pendulum,LNN-multistep,0.894,0.522,2.295,26.944,0,,paper Table 1
+variable_pendulum,HiLNN,0.0607,0.113,0.193,1.759,0,variable_energy001,paper Table 1
