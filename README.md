@@ -1,8 +1,16 @@
-# HiLNN
+# History-informed Lagrangian Neural Networks
 
-**History-informed Lagrangian Neural Networks for long-horizon physical forecasting.**
+**This work has been accepted as an Oral Presentation at the 2026 Chinese Conference on Pattern Recognition and Computer Vision (PRCV 2026).**
 
-This repository contains the **minimal reproducible pipeline** for the paper main results (Table 1): three pendulum datasets, baseline methods, and HiLNN training/evaluation at `L=8`, `H=32`.
+<p align="center">
+  <img src="assets/fig1_method_overview.png" alt="Overview of HiLNN" width="100%">
+</p>
+
+<p align="center">
+  <em>Overview of the proposed History-informed Lagrangian Neural Network.</em>
+</p>
+
+This repository contains the **minimal reproducible pipeline** for the paper main results: three pendulum datasets, baseline methods, and HiLNN training/evaluation at `L=8`, `H=32`.
 
 It intentionally excludes ablation studies, paper figure/table export scripts, and visualization utilities from the full research codebase.
 
