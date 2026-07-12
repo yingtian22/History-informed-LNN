@@ -137,6 +137,10 @@ HiLNN-release/
 
 If you use this code, please cite our paper (bibtex to be added).
 
+## Code Attribution
+
+Parts of the Lagrangian Neural Network baseline implementation in this repository are based on and adapted from [MilesCranmer/lagrangian_nns](https://github.com/MilesCranmer/lagrangian_nns), which is released under the Apache License 2.0. The original implementation has been modified and extended for position-only history encoding, context-conditioned Lagrangian dynamics, dissipative and variable-parameter systems, and differentiable multi-step RK4 forecasting. We thank the original authors for making their code publicly available.
+
 ## License
 
-See `LICENSE`.
+The original HiLNN contributions are released under the license provided in this repository. Portions adapted from `MilesCranmer/lagrangian_nns` remain subject to the Apache License 2.0.
